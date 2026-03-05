@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 40px;
+    background: linear-gradient(135deg, #e3f2fd, #fce4ec);
+}
+.card{
+    background-color: beige;
+    height: 73vh;
+    max-height: 600px;
+    width: 75vw;
+    max-width: 300px;
+    border-radius: 38px;
+    margin-top: 10vh;
+    margin-inline: 20px;
+}
+.image{
+    padding: 15px;
+    border-radius: 20px;
+    height: 180px;
+    width: 100%;
+
+}
+.image img{
+    height: 180px;
+    border-radius: 20px;
+
+}
+.capsule{
+    padding: 5px 40px 0 20px ;
+}
+.capsule span{
+    padding: 1px 5px 2px 5px ;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+.content{
+    padding: 15px 0 0 23px ;
+}
+.content h2{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.content p{
+    color: rgb(50, 50, 50);
+}
+.button{
+    padding-top: 30px;
+    text-align: center;
+}
+.button button{
+    background-color: rgba(152, 183, 255, 0.667);
+    color: rgb(52, 75, 221);
+    padding: 10px 20px 10px 20px ;
+    border-radius: 20px;
+    border: 0;
+    font-weight: bold;
+}
+.button button:hover{
+    background-color:rgba(110, 149, 240, 0.667); 
+    color: rgb(26, 26, 224);
+}
+.button button:checked{
+    background-color: azure;
+}
